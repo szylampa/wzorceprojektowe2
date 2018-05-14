@@ -1,6 +1,7 @@
 package com.sda.eventdispatcher.droidan;
 
-import com.sda.eventdispatcher.restauracja.zdarzenia.IEvent;
+import com.sda.eventdispatcher.droidan.event.events.CallStartedEvent;
+import com.sda.eventdispatcher.droidan.event.events.IEvent;
 import org.apache.commons.lang3.ClassUtils;
 
 import java.util.ArrayList;
