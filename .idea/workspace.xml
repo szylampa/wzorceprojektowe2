@@ -1,44 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a00518ba-9480-4c1e-afab-7b2071682335" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/aplikacje/AbstractRegistrableAplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/aplikacje/CallRecorderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/events/CallEndedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/events/CallStartedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/listeners/ICallListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a00518ba-9480-4c1e-afab-7b2071682335" name="Default" comment="dodanie zabezpieczenia przy startowaniu i zakanczani">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/AndroidSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/AndroidSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/EventDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/EventDispatcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/CallType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/IEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/events/IEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/applications/CallRecorderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/aplikacje/PhoneApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/EventDispatcher$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/EventDispatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/interfejsy/IPowiadamialnyOPrzybyciuKlienta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/interfejsy/IPowiadamialnyOWyjsciuKlienta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/interfejsy/IPowiadamialnyOZamowieniu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/interfejsy/IPowiadamialnyOZaplacieZaPosilek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/modele/AbstractRegistrable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/modele/Kelner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/modele/Kucharz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/modele/Ochroniarz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/modele/Restauracja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/zdarzenia/IEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/zdarzenia/KlientPrzyszedl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/zdarzenia/KlientWyszedl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/zdarzenia/KlientZamowil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/restauracja/zdarzenia/KlientZaplacil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/ztm/AbstractRegistrable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/ztm/Autobus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/ztm/EventDispatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/ztm/IPowiadamialnyOAutobusie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/ztm/IPowiadamialnyOSpoznieniu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/ztm/Informator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/ztm/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/ztm/PrzystanekAutobusowy.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="342">
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventDispatcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/EventDispatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +41,29 @@
       <file leaf-file-name="AndroidSystem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/AndroidSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="-142">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ICallListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/listeners/ICallListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/events/IEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -89,48 +82,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CallRecorderApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/aplikacje/CallRecorderApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CallStartedEvent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/events/CallStartedEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="144">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#379#380#0" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IEvent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/events/IEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/restauracja/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventDispatcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/EventDispatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,12 +184,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/aplikacje/AbstractAplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/aplikacje/CallRecorderApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/aplikacje/PhoneApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/AndroidSystem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/restauracja/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/events/CallEndedEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/events/CallStartedEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/EventDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/AndroidSystem.java" />
       </list>
     </option>
   </component>
@@ -229,7 +202,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -304,52 +277,6 @@
               <item name="eventdispatcher" type="462c0819:PsiDirectoryNode" />
               <item name="droidan" type="462c0819:PsiDirectoryNode" />
               <item name="event" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wzorceprojektowe2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wzorceprojektowe2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="eventdispatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="droidan" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
-              <item name="aplikacje" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wzorceprojektowe2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wzorceprojektowe2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="eventdispatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="droidan" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wzorceprojektowe2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wzorceprojektowe2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="eventdispatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="droidan" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
-              <item name="listeners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wzorceprojektowe2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wzorceprojektowe2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="eventdispatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="restauracja" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -548,11 +475,18 @@
       <option name="presentableId" value="Default" />
       <updated>1525707725671</updated>
     </task>
+    <task id="LOCAL-00001" summary="podstawowe rozsylanie o rozpoczeciu i zakonczeniu">
+      <created>1526322229243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526322229243</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -584,6 +518,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="podstawowe rozsylanie o rozpoczeciu i zakonczeniu" />
+    <option name="LAST_COMMIT_MESSAGE" value="podstawowe rozsylanie o rozpoczeciu i zakonczeniu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -819,13 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/listeners/ICallListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/restauracja/interfejsy/IPowiadamialnyOPrzybyciuKlienta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -851,23 +782,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/aplikacje/CallRecorderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/restauracja/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/EventDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/AndroidSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/listeners/ICallListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/events/IEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/events/CallStartedEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -884,51 +857,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/AndroidSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/aplikacje/CallRecorderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="288">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/events/CallStartedEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/event/events/IEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/EventDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/eventdispatcher/droidan/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
           </folding>
         </state>
       </provider>
