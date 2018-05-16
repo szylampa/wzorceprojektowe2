@@ -1,6 +1,5 @@
 package com.sda.eventdispatcher.droidan;
 
-
 import java.util.Scanner;
 
 public class Main {
@@ -21,5 +20,4 @@ public class Main {
             }
         }
     }
-
 }
